@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1422522016134" name="http://people.brunel.ac.uk/~csstnns/university.owl" uri="csstnns/university.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1422522016134" name="http://www.semanticweb.org/ken/ontologies/2014/10/untitled-ontology-3" uri="university.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1422522016134" name="http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10" uri="thesis.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1422522016134" name="duplicate:http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5" uri="webse_2_ken.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1422522016134" name="duplicate:http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5" uri="website%202.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1422522016134" name="duplicate:http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5" uri="websiteontology%20(1).owl"/>
+    </group>
+</catalog>

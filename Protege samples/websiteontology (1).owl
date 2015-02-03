@@ -1,0 +1,529 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#"
+     xml:base="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#has -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#has">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Brand_New"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#new"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#product"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#offers -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#offers">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Ayosdito"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Buy_and_Sell"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Electronics"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#OLX"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#stores -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#stores">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Website_systems"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#use -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#use"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#ad_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#ad_name">
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#brand -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#brand"/>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#price -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#price"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Ayosdito -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Ayosdito">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Website_systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Brand_New -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Brand_New">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#new"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#CCMS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Buy_and_Sell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Buy_and_Sell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#OLX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#CCMS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#CCMS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Phones_and_handhelds"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Computers_and_Laptops -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Computers_and_Laptops">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Lazada"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Electronics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Electronics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Ayosdito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Intel_tablet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Intel_tablet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#tablets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Lazada -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Lazada">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Website_systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Mobile_phone_and_Tablets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Mobile_phone_and_Tablets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Lazada"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Mobiles_phones -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Mobiles_phones">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Mobile_phone_and_Tablets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#OLX -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#OLX">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Website_systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Phones_and_handhelds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Phones_and_handhelds">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Buy_and_Sell"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Second_Hand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Second_Hand">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#used"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#CCMS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Website_systems -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Website_systems"/>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#basic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#basic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#laptops"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#basic_phones -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#basic_phones">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Mobiles_phones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#batteries -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#batteries">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#batteries_and_chargers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#batteries_and_chargers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#batteries_and_chargers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Mobile_phone_and_Tablets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#bluetooth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#bluetooth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#headphones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#chargers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#chargers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#batteries_and_chargers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#external_harddrives -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#external_harddrives">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#storage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#gaming -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#gaming">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#laptops"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#headphones -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#headphones">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#mobile_accessories"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#in-ear -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#in-ear">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#headphones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#internal_hardrives -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#internal_hardrives">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#storage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#laptops -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#laptops">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Computers_and_Laptops"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#memory_cards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#memory_cards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#storage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#mobile_accessories -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#mobile_accessories">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Mobile_phone_and_Tablets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#mobile_phone_and_gadgets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#mobile_phone_and_gadgets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Electronics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#netbooks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#netbooks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#laptops"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#new -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#new">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#mobile_phone_and_gadgets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#over-the-head -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#over-the-head">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#headphones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#power_banks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#power_banks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#batteries_and_chargers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#product">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Brand_New"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Intel_tablet"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Second_Hand"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#basic"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#basic_phones"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#batteries"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#bluetooth"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#chargers"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#external_harddrives"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#gaming"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#in-ear"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#internal_hardrives"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#memory_cards"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#netbooks"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#new"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#over-the-head"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#power_banks"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#profession"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#smart_phones"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#solid_state_drives"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#tablets_with_call"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#tablets_without_call"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#touchscreen"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#ultrabook"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#usb_flash_drives"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#used"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#wired_headsets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#profession -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#profession">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#laptops"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#smart_phones -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#smart_phones">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Mobiles_phones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#solid_state_drives -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#solid_state_drives">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#storage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#storage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#storage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Computers_and_Laptops"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#tablets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#tablets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Mobile_phone_and_Tablets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#tablets_with_call -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#tablets_with_call">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#tablets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#tablets_without_call -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#tablets_without_call">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#tablets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#touchscreen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#touchscreen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#laptops"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#ultrabook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#ultrabook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#laptops"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#usb_flash_drives -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#usb_flash_drives">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#storage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#used -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#used">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#mobile_phone_and_gadgets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#wired_headsets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#wired_headsets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#headphones"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#ad1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#ad1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#product"/>
+        <price rdf:datatype="&xsd;language">1233</price>
+        <brand rdf:datatype="&xsd;string">iphone</brand>
+        <ad_name rdf:datatype="&xsd;string">iphone buy!!</ad_name>
+        <has rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#ad1"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

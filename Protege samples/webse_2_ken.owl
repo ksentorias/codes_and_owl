@@ -1,0 +1,855 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#"
+     xml:base="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/thesis/threelocalsites"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#has -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#has"/>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#offers -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#offers">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#new"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#sample"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#stores -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#stores"/>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#use -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#use"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#alert_types -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#alert_types">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#sound"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#all_record -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#all_record">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#memory"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#announced -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#announced">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#launch"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#battery -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#battery"/>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#bluetooth -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#bluetooth">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#comms"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#body -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#body"/>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#brand -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#brand">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#brand_name"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#brand_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#brand_name"/>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#browsers -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#browsers">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#features"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#camera -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#camera"/>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#camera_features -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#camera_features">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#camera"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#card_slot -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#card_slot">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#memory"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#chipset -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#chipset">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#platform"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#colors -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#colors">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#misc"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#comms -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#comms"/>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#cpu -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#cpu">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#platform"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#dimension -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#dimension">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#body"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#display -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#display"/>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#edge -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#edge">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#network"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#features -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#features"/>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#games -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#games">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#features"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#gprs -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#gprs">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#network"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#gps -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#gps">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#comms"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#gpu -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#gpu">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#platform"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#infrared_port -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#infrared_port">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#comms"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#internal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#internal">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#memory"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#java -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#java">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#features"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#launch -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#launch"/>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#loudspeaker -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#loudspeaker">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#sound"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#memory -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#memory">
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#messaging -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#messaging">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#features"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#misc -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#misc"/>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#model -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#model"/>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#music_play -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#music_play">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#battery"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#network -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#network"/>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#nfc -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#nfc">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#comms"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#os -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#os">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#platform"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#phonebook -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#phonebook">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#memory"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#platform -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#platform">
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#price_group -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#price_group">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#misc"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#prinary -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#prinary">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#camera"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#radio -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#radio">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#comms"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#resolution -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#resolution">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#display"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#sar_eu -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#sar_eu">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#misc"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#sar_us -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#sar_us">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#misc"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#secondary -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#secondary">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#camera"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#sensors -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#sensors">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#features"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#sim -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#sim">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#body"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#size -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#size">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#display"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#sound -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#sound"/>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#speed -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#speed">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#network"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#stand_by -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#stand_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#battery"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#status -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#status">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#launch"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#talk_time -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#talk_time">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#battery"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#technology -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#technology">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#network"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#three_dot_five_mm_jack -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#three_dot_five_mm_jack">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#sound"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#three_g_network -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#three_g_network">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#network"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#two_g_bands -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#two_g_bands">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#network"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#type">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#display"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#usb -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#usb">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#comms"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#video -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#video">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#camera"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#weight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#weight">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#body"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#wlan -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#wlan">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#comms"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Ayosdito -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Ayosdito">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Ecommerce_websites"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Brand_New -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Brand_New">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#new"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#CCMS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Buy_and_Sell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Buy_and_Sell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#OLX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#CCMS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#CCMS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Phones_and_handhelds"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Ecommerce_websites -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Ecommerce_websites">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Internet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Electronics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Electronics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Ayosdito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Intel_tablet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Intel_tablet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#tablets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Internet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Internet"/>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Lazada -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Lazada">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Ecommerce_websites"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Mobile_phone_and_Tablets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Mobile_phone_and_Tablets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Lazada"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Mobiles_phones -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Mobiles_phones">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Mobile_phone_and_Tablets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#OLX -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#OLX">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Ecommerce_websites"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Phones_and_handhelds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Phones_and_handhelds">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Buy_and_Sell"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Second_Hand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Second_Hand">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#used"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#CCMS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#basic_phones -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#basic_phones">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Mobiles_phones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#batteries -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#batteries">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#batteries_and_chargers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#batteries_and_chargers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#batteries_and_chargers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Mobile_phone_and_Tablets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#bluetooth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#bluetooth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#headphones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#chargers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#chargers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#batteries_and_chargers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#headphones -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#headphones">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#mobile_accessories"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#in-ear -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#in-ear">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#headphones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#mobile_accessories -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#mobile_accessories">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Mobile_phone_and_Tablets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#mobile_phone_and_gadgets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#mobile_phone_and_gadgets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Electronics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#new -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#new">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#mobile_phone_and_gadgets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#over-the-head -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#over-the-head">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#headphones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#power_banks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#power_banks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#batteries_and_chargers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#sample -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#sample"/>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#smart_phones -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#smart_phones">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Mobiles_phones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#tablets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#tablets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#Mobile_phone_and_Tablets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#tablets_with_call -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#tablets_with_call">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#tablets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#tablets_without_call -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#tablets_without_call">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#tablets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#used -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#used">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#mobile_phone_and_gadgets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#wired_headsets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#wired_headsets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#headphones"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#ad_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#ad_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#sample"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#ad_2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#ad_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#ad_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#new"/>
+        <offers rdf:resource="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#ad_1"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

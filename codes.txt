@@ -1,0 +1,31 @@
+import java.util.iterator'
+
+import com hp hpl jena query query
+import com hp hpl jena query Queryexecution
+			     queryexecutionfactory
+				queryfactory
+				resultset
+        com hp hpl jena rdf model Literal
+	com hp hpl jena rdf model model
+	com hp hpl jena ulti file manager
+
+
+FileManager.get().addLocatorClassLoader(Main.class.getClassLoader());
+Model model  = FileManager.get().loadModel("rdf data");
+String queryString =
+" PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>" +
+" prefix foaf: <http://xmlns.com/foaf/0.1/>" +
+"select * where { " +
+"?person foaf:name ?x .} ";
+
+Query query = QueryFactory.create(queryString);
+QueryExecution qexec = QueryExecutionFactory.create(query, model);
+try{
+ResultSet results = qexec.execSelect();
+while ( results.hasNext()) {
+	QuerySolution soln = results.nextSolution();
+	Literal name = soln.getLiteral("x");
+	Systen.out.println(name);
+}
+}
+finally {qexec.close();}

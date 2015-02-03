@@ -1,0 +1,277 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY university "file:///C:/Users/Ken/Documents/Ken/Thesis/Protege&#37;20samples/university.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ken/ontologies/2014/10/untitled-ontology-3#"
+     xml:base="http://www.semanticweb.org/ken/ontologies/2014/10/untitled-ontology-3"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:university="file:///C:/Users/Ken/Documents/Ken/Thesis/Protege%20samples/university.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="file:///C:/Users/Ken/Documents/Ken/Thesis/Protege%20samples/university.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:///C:/Users/Ken/Documents/Ken/Thesis/Protege%20samples/university.owl#studies -->
+
+    <owl:ObjectProperty rdf:about="&university;studies">
+        <rdfs:range rdf:resource="&university;Module"/>
+        <rdfs:domain rdf:resource="&university;Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:///C:/Users/Ken/Documents/Ken/Thesis/Protege%20samples/university.owl#teaches -->
+
+    <owl:ObjectProperty rdf:about="&university;teaches">
+        <rdfs:domain rdf:resource="&university;Lecturer"/>
+        <rdfs:range rdf:resource="&university;Module"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:///C:/Users/Ken/Documents/Ken/Thesis/Protege%20samples/university.owl#first_name -->
+
+    <owl:DatatypeProperty rdf:about="&university;first_name">
+        <rdfs:domain rdf:resource="&university;Person"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:///C:/Users/Ken/Documents/Ken/Thesis/Protege%20samples/university.owl#last_name -->
+
+    <owl:DatatypeProperty rdf:about="&university;last_name">
+        <rdfs:domain rdf:resource="&university;Person"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:///C:/Users/Ken/Documents/Ken/Thesis/Protege%20samples/university.owl#staffID -->
+
+    <owl:DatatypeProperty rdf:about="&university;staffID">
+        <rdfs:domain rdf:resource="&university;Lecturer"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- file:///C:/Users/Ken/Documents/Ken/Thesis/Protege%20samples/university.owl#studentID -->
+
+    <owl:DatatypeProperty rdf:about="&university;studentID">
+        <rdfs:domain rdf:resource="&university;Student"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:///C:/Users/Ken/Documents/Ken/Thesis/Protege%20samples/university.owl#CSModule -->
+
+    <owl:Class rdf:about="&university;CSModule">
+        <rdfs:subClassOf rdf:resource="&university;Module"/>
+    </owl:Class>
+    
+
+
+    <!-- file:///C:/Users/Ken/Documents/Ken/Thesis/Protege%20samples/university.owl#Lecturer -->
+
+    <owl:Class rdf:about="&university;Lecturer">
+        <rdfs:subClassOf rdf:resource="&university;Person"/>
+    </owl:Class>
+    
+
+
+    <!-- file:///C:/Users/Ken/Documents/Ken/Thesis/Protege%20samples/university.owl#MathModule -->
+
+    <owl:Class rdf:about="&university;MathModule">
+        <rdfs:subClassOf rdf:resource="&university;Module"/>
+    </owl:Class>
+    
+
+
+    <!-- file:///C:/Users/Ken/Documents/Ken/Thesis/Protege%20samples/university.owl#Module -->
+
+    <owl:Class rdf:about="&university;Module"/>
+    
+
+
+    <!-- file:///C:/Users/Ken/Documents/Ken/Thesis/Protege%20samples/university.owl#Person -->
+
+    <owl:Class rdf:about="&university;Person"/>
+    
+
+
+    <!-- file:///C:/Users/Ken/Documents/Ken/Thesis/Protege%20samples/university.owl#Student -->
+
+    <owl:Class rdf:about="&university;Student">
+        <rdfs:subClassOf rdf:resource="&university;Person"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:///C:/Users/Ken/Documents/Ken/Thesis/Protege%20samples/university.owl#CS101 -->
+
+    <owl:NamedIndividual rdf:about="&university;CS101">
+        <rdf:type rdf:resource="&university;CSModule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- file:///C:/Users/Ken/Documents/Ken/Thesis/Protege%20samples/university.owl#CS103 -->
+
+    <owl:NamedIndividual rdf:about="&university;CS103">
+        <rdf:type rdf:resource="&university;CSModule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- file:///C:/Users/Ken/Documents/Ken/Thesis/Protege%20samples/university.owl#Lecturer1 -->
+
+    <owl:NamedIndividual rdf:about="&university;Lecturer1">
+        <rdf:type rdf:resource="&university;Lecturer"/>
+        <university:staffID rdf:datatype="&xsd;integer">100</university:staffID>
+        <university:first_name rdf:datatype="&xsd;string">Bing</university:first_name>
+        <university:last_name rdf:datatype="&xsd;string">Yaneza</university:last_name>
+        <university:teaches rdf:resource="&university;CS103"/>
+        <university:teaches rdf:resource="&university;M201"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- file:///C:/Users/Ken/Documents/Ken/Thesis/Protege%20samples/university.owl#Lecturer2 -->
+
+    <owl:NamedIndividual rdf:about="&university;Lecturer2">
+        <rdf:type rdf:resource="&university;Lecturer"/>
+        <university:staffID rdf:datatype="&xsd;integer">200</university:staffID>
+        <university:last_name rdf:datatype="&xsd;string">Mocorro</university:last_name>
+        <university:first_name rdf:datatype="&xsd;string">Rhea</university:first_name>
+        <university:teaches rdf:resource="&university;CS101"/>
+        <university:teaches rdf:resource="&university;M204"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- file:///C:/Users/Ken/Documents/Ken/Thesis/Protege%20samples/university.owl#M201 -->
+
+    <owl:NamedIndividual rdf:about="&university;M201">
+        <rdf:type rdf:resource="&university;MathModule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- file:///C:/Users/Ken/Documents/Ken/Thesis/Protege%20samples/university.owl#M204 -->
+
+    <owl:NamedIndividual rdf:about="&university;M204">
+        <rdf:type rdf:resource="&university;MathModule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- file:///C:/Users/Ken/Documents/Ken/Thesis/Protege%20samples/university.owl#Student1 -->
+
+    <owl:NamedIndividual rdf:about="&university;Student1">
+        <rdf:type rdf:resource="&university;Student"/>
+        <university:studentID rdf:datatype="&xsd;integer">001</university:studentID>
+        <university:last_name rdf:datatype="&xsd;string">Ceniza</university:last_name>
+        <university:first_name rdf:datatype="&xsd;string">Mae</university:first_name>
+        <university:studies rdf:resource="&university;CS101"/>
+        <university:studies rdf:resource="&university;CS103"/>
+        <university:studies rdf:resource="&university;M201"/>
+        <university:studies rdf:resource="&university;M204"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- file:///C:/Users/Ken/Documents/Ken/Thesis/Protege%20samples/university.owl#Student2 -->
+
+    <owl:NamedIndividual rdf:about="&university;Student2">
+        <rdf:type rdf:resource="&university;Student"/>
+        <university:studentID rdf:datatype="&xsd;integer">002</university:studentID>
+        <university:first_name rdf:datatype="&xsd;string">Paolo</university:first_name>
+        <university:last_name rdf:datatype="&xsd;string">Vilalluz</university:last_name>
+        <university:studies rdf:resource="&university;CS101"/>
+        <university:studies rdf:resource="&university;CS103"/>
+        <university:studies rdf:resource="&university;M201"/>
+        <university:studies rdf:resource="&university;M204"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="&university;CSModule"/>
+            <rdf:Description rdf:about="&university;Lecturer"/>
+            <rdf:Description rdf:about="&university;MathModule"/>
+            <rdf:Description rdf:about="&university;Student"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

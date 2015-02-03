@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#"
+     xml:base="http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#brand -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#brand"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#cpu -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#cpu"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#model -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#model"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#price -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#price"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#ram -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#ram"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#screen_size -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#screen_size"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#AyosDito -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#AyosDito"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#Electronics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#Electronics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#AyosDito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#Mobile_phone_and_Gadgets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#Mobile_phone_and_Gadgets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#Electronics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#Product">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#new"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#new -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#new">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#Mobile_phone_and_Gadgets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#used -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#used">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#Mobile_phone_and_Gadgets"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#Product1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#Product1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ken/ontologies/2015/0/untitled-ontology-10#Product"/>
+        <screen_size rdf:datatype="&xsd;string">6 inches</screen_size>
+        <price rdf:datatype="&xsd;integer">9000</price>
+        <model rdf:datatype="&xsd;string">Diamond X1</model>
+        <cpu rdf:datatype="&xsd;string">Octacore</cpu>
+        <brand rdf:datatype="&xsd;string">Star Mobile</brand>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

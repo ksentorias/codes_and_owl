@@ -1,0 +1,3 @@
+we observed that the data we get in 3 local sites made a huge difference even in the same site. the solution is to get the brand name or the ad name and extract its brand_name (ie samsung, apple) then find the model in the same string (ad_name) and then search it using gsmarena's data property assertion to make a [clean, organized] table.
+
+

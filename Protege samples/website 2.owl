@@ -1,0 +1,403 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY website_2 "http://localhost/thesis/website_2.owl#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5#"
+     xml:base="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:website_2="http://localhost/thesis/website_2.owl#">
+    <owl:Ontology rdf:about="http://localhost/thesis/website_2.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#offers -->
+
+    <owl:ObjectProperty rdf:about="&website_2;offers">
+        <rdfs:domain rdf:resource="&website_2;Ayosdito"/>
+        <rdfs:range rdf:resource="&website_2;Electronics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#stores -->
+
+    <owl:ObjectProperty rdf:about="&website_2;stores">
+        <rdfs:domain rdf:resource="&website_2;Website_systems"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#use -->
+
+    <owl:ObjectProperty rdf:about="&website_2;use"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#ad_name -->
+
+    <owl:DatatypeProperty rdf:about="&website_2;ad_name">
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#brand -->
+
+    <owl:DatatypeProperty rdf:about="&website_2;brand"/>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#price -->
+
+    <owl:DatatypeProperty rdf:about="&website_2;price"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#Ayosdito -->
+
+    <owl:Class rdf:about="&website_2;Ayosdito">
+        <rdfs:subClassOf rdf:resource="&website_2;Website_systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#Ayosdito_new_product -->
+
+    <owl:Class rdf:about="&website_2;Ayosdito_new_product">
+        <rdfs:subClassOf rdf:resource="&website_2;new"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#Ayosdito_used_product -->
+
+    <owl:Class rdf:about="&website_2;Ayosdito_used_product">
+        <rdfs:subClassOf rdf:resource="&website_2;used"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#Brand_New -->
+
+    <owl:Class rdf:about="&website_2;Brand_New">
+        <owl:equivalentClass rdf:resource="&website_2;new"/>
+        <rdfs:subClassOf rdf:resource="&website_2;CCMS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#Buy_and_Sell -->
+
+    <owl:Class rdf:about="&website_2;Buy_and_Sell">
+        <rdfs:subClassOf rdf:resource="&website_2;OLX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#CCMS -->
+
+    <owl:Class rdf:about="&website_2;CCMS">
+        <rdfs:subClassOf rdf:resource="&website_2;Phones_and_handhelds"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#Electronics -->
+
+    <owl:Class rdf:about="&website_2;Electronics">
+        <rdfs:subClassOf rdf:resource="&website_2;Ayosdito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#Intel_tablet -->
+
+    <owl:Class rdf:about="&website_2;Intel_tablet">
+        <rdfs:subClassOf rdf:resource="&website_2;tablets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#Lazada -->
+
+    <owl:Class rdf:about="&website_2;Lazada">
+        <rdfs:subClassOf rdf:resource="&website_2;Website_systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#Mobile_phone_and_Tablets -->
+
+    <owl:Class rdf:about="&website_2;Mobile_phone_and_Tablets">
+        <rdfs:subClassOf rdf:resource="&website_2;Lazada"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#Mobiles_phones -->
+
+    <owl:Class rdf:about="&website_2;Mobiles_phones">
+        <rdfs:subClassOf rdf:resource="&website_2;Mobile_phone_and_Tablets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#OLX -->
+
+    <owl:Class rdf:about="&website_2;OLX">
+        <rdfs:subClassOf rdf:resource="&website_2;Website_systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#OLX_b-new_product -->
+
+    <owl:Class rdf:about="&website_2;OLX_b-new_product">
+        <rdfs:subClassOf rdf:resource="&website_2;Brand_New"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#OLX_s-hand_product -->
+
+    <owl:Class rdf:about="&website_2;OLX_s-hand_product">
+        <rdfs:subClassOf rdf:resource="&website_2;Second_Hand"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#Phones_and_handhelds -->
+
+    <owl:Class rdf:about="&website_2;Phones_and_handhelds">
+        <rdfs:subClassOf rdf:resource="&website_2;Buy_and_Sell"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#Second_Hand -->
+
+    <owl:Class rdf:about="&website_2;Second_Hand">
+        <owl:equivalentClass rdf:resource="&website_2;used"/>
+        <rdfs:subClassOf rdf:resource="&website_2;CCMS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#Website_systems -->
+
+    <owl:Class rdf:about="&website_2;Website_systems"/>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#basic_phones -->
+
+    <owl:Class rdf:about="&website_2;basic_phones">
+        <rdfs:subClassOf rdf:resource="&website_2;Mobiles_phones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#batteries -->
+
+    <owl:Class rdf:about="&website_2;batteries">
+        <rdfs:subClassOf rdf:resource="&website_2;batteries_and_chargers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#batteries_and_chargers -->
+
+    <owl:Class rdf:about="&website_2;batteries_and_chargers">
+        <rdfs:subClassOf rdf:resource="&website_2;Mobile_phone_and_Tablets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#bluetooth -->
+
+    <owl:Class rdf:about="&website_2;bluetooth">
+        <rdfs:subClassOf rdf:resource="&website_2;headphones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#chargers -->
+
+    <owl:Class rdf:about="&website_2;chargers">
+        <rdfs:subClassOf rdf:resource="&website_2;batteries_and_chargers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#headphones -->
+
+    <owl:Class rdf:about="&website_2;headphones">
+        <rdfs:subClassOf rdf:resource="&website_2;mobile_accessories"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#in-ear -->
+
+    <owl:Class rdf:about="&website_2;in-ear">
+        <rdfs:subClassOf rdf:resource="&website_2;headphones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#mobile_accessories -->
+
+    <owl:Class rdf:about="&website_2;mobile_accessories">
+        <rdfs:subClassOf rdf:resource="&website_2;Mobile_phone_and_Tablets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#mobile_phone_and_gadgets -->
+
+    <owl:Class rdf:about="&website_2;mobile_phone_and_gadgets">
+        <rdfs:subClassOf rdf:resource="&website_2;Electronics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#new -->
+
+    <owl:Class rdf:about="&website_2;new">
+        <rdfs:subClassOf rdf:resource="&website_2;mobile_phone_and_gadgets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#over-the-head -->
+
+    <owl:Class rdf:about="&website_2;over-the-head">
+        <rdfs:subClassOf rdf:resource="&website_2;headphones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#power_banks -->
+
+    <owl:Class rdf:about="&website_2;power_banks">
+        <rdfs:subClassOf rdf:resource="&website_2;batteries_and_chargers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#smart_phones -->
+
+    <owl:Class rdf:about="&website_2;smart_phones">
+        <rdfs:subClassOf rdf:resource="&website_2;Mobiles_phones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#tablets -->
+
+    <owl:Class rdf:about="&website_2;tablets">
+        <rdfs:subClassOf rdf:resource="&website_2;Mobile_phone_and_Tablets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#tablets_with_call -->
+
+    <owl:Class rdf:about="&website_2;tablets_with_call">
+        <rdfs:subClassOf rdf:resource="&website_2;tablets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#tablets_without_call -->
+
+    <owl:Class rdf:about="&website_2;tablets_without_call">
+        <rdfs:subClassOf rdf:resource="&website_2;tablets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#used -->
+
+    <owl:Class rdf:about="&website_2;used">
+        <rdfs:subClassOf rdf:resource="&website_2;mobile_phone_and_gadgets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#wired_headsets -->
+
+    <owl:Class rdf:about="&website_2;wired_headsets">
+        <rdfs:subClassOf rdf:resource="&website_2;headphones"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://localhost/thesis/website_2.owl#ad1 -->
+
+    <owl:NamedIndividual rdf:about="&website_2;ad1">
+        <website_2:price rdf:datatype="&xsd;language">1233</website_2:price>
+        <website_2:brand rdf:datatype="&xsd;string">iphone</website_2:brand>
+        <website_2:ad_name rdf:datatype="&xsd;string">iphone buy!!</website_2:ad_name>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,45 @@
+## DISPLAY DATA IN SPECIFIC INDIVIDUAL##
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix ha: <http://xu.edu.ph/ecommerce/local/test#>
+
+
+SELECT ?idRef ?name ?src ?dst ?perf
+WHERE {
+   <http://xu.edu.ph/ecommerce/local/test#ad_1> ha:brand ?idRef .
+   <http://xu.edu.ph/ecommerce/local/test#ad_1> ha:model ?name .
+   <http://xu.edu.ph/ecommerce/local/test#ad_1> ha:video ?src .
+   <http://xu.edu.ph/ecommerce/local/test#ad_1> ha:gps ?dst .
+   <http://xu.edu.ph/ecommerce/local/test#ad_1> ha:status ?perf .
+}
+
+
+------------------------------------------------------------------
+## DISPLAY DATA IN SPECIFIC INDIVIDUAL WITH USE OF FILTER ##
+
+SELECT ?idRef ?name ?src ?dst ?perf
+WHERE {
+    ?x graph:idRef_arc ?idRef .
+    ?x graph:name_arc ?name .
+    ?x graph:hasSource ?src .
+    ?x graph:hasDestination ?dst .
+    ?x graph:hasPerformatif ?perf .
+    FILTER(?x=<http://www.semanticweb.org/ontologies/2012/1/graph.owl#arc_cfp>
+}
+------------------------------------------------------------------
+## QUEUE ALL INDIVIDUALS IN SPECIFIC CLASS ##
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix ha: <http://xu.edu.ph/ecommerce/local/test#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+SELECT DISTINCT ?sub 
+WHERE{
+?sub a ha:Brand_New .
+}
