@@ -43,3 +43,22 @@ SELECT DISTINCT ?sub
 WHERE{
 ?sub a ha:Brand_New .
 }
+
+---------------------------------------------------
+## add individuals
+
+PREFIX :<http://xu.edu.ph/ecommerce/local/test#>
+PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl:<http://www.w3.org/2002/07/owl#>
+PREFIX xsd:<http://www.w3.org/2001/XMLSchema#>
+
+INSERT DATA
+{
+  :TestBook rdf:type owl:NamedIndividual;  //add an invdividual
+            rdf:type :Brand_New			//add to class brand_new
+	pre:creator "TTT";      		//add data property "creator" with value "TTT"
+               pre:title "Test Book";
+               pre:hasCurrency pre:US;
+               pre:price "10".
+}
+

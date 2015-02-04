@@ -1,0 +1,14 @@
+{
+  "startUrls" : [ "http://www.gsmarena.com/samsung_galaxy_j1-6907.php", "http://www.gsmarena.com/samsung_galaxy_s5_lte_a_g901f-6576.php", "http://www.gsmarena.com/samsung_e1272-6170.php", "http://www.gsmarena.com/samsung_z1-6894.php" ],
+  "local" : false,
+  "maxDepth" : 10,
+  "pause" : 1,
+  "connectorGuid" : "cc013404-c3a7-4863-a704-68ae821c73bc",
+  "destination" : "CSV",
+  "connections" : 3,
+  "advancedMode" : true,
+  "dataTemplate" : [ "www.gsmarena.com/{not-slash}.php$" ],
+  "crawlTemplate" : [ "www.gsmarena.com/" ],
+  "noCrawlTemplate" : [ "http://www.gsmarena.com/spice-phones-68.php", "http://www.gsmarena.com/maxwest-phones-87.php", "http://www.gsmarena.com/vodafone-phones-53.php", "http://www.gsmarena.com/lava-phones-94.php", "http://www.gsmarena.com/gionee-phones-92.php", "http://www.gsmarena.com/niu-phones-79.php", "http://www.gsmarena.com/xolo-phones-85.php", "http://www.gsmarena.com/verykool-phones-70.php", "http://www.gsmarena.com/prestigio-phones-86.php", "http://www.gsmarena.com/blu-phones-67.php", "http://www.gsmarena.com/micromax-phones-66.php", "http://www.gsmarena.com/yezz-phones-78.php", "http://www.gsmarena.com/pantech-phones-32.php", "http://www.gsmarena.com/celkon-phones-75.php", "http://www.gsmarena.com/vivo-phones-98.php", "http://www.gsmarena.com/t_mobile-phones-55.php", "http://www.gsmarena.com/parla-phones-81.php", "http://www.gsmarena.com/plum-phones-72.php" ],
+  "cookiesEnabled" : true
+}
