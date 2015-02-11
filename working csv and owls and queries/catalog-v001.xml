@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1423311037548" name="http://www.semanticweb.org/maeann/ontologies/2014/10/untitled-ontology-5" uri="webse_2_ken.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1423311037548" name="http://xu.edu.ph/ecommerce" uri="ecommerce.owl"/>
+    </group>
+</catalog>

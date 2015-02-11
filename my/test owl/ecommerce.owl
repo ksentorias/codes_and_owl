@@ -1,0 +1,849 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY ecommerce "http://xu.edu.ph/ecommerce#" >
+    <!ENTITY j.1 "http://xu.edu.ph/ecommerce#2" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY j.0 "http://xu.edu.ph/ecommerce/local/test#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://xu.edu.ph/ecommerce#"
+     xml:base="http://xu.edu.ph/ecommerce"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ecommerce="http://xu.edu.ph/ecommerce#"
+     xmlns:j.1="&ecommerce;2"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:j.0="http://xu.edu.ph/ecommerce/local/test#">
+    <owl:Ontology rdf:about="http://xu.edu.ph/ecommerce"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#isaModelof -->
+
+    <owl:ObjectProperty rdf:about="&ecommerce;isaModelof">
+        <rdfs:domain rdf:resource="&ecommerce;Brand"/>
+        <rdfs:range rdf:resource="&ecommerce;Model"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#offers -->
+
+    <owl:ObjectProperty rdf:about="&ecommerce;offers">
+        <rdfs:domain rdf:resource="&ecommerce;E-Commerce_Sites"/>
+        <rdfs:range rdf:resource="&ecommerce;Products"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#sells -->
+
+    <owl:ObjectProperty rdf:about="&ecommerce;sells"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#2nd_or_brandnew -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;2nd_or_brandnew">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Phones"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#Model -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;Model">
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#Phones -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;Phones">
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#ad_name -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;ad_name">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Phones"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#alert_types -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;alert_types">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#battery -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;battery">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#bluetooth -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;bluetooth">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#brand -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;brand">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#camera_features -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;camera_features">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#camera_primary -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;camera_primary">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#camera_secondary -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;camera_secondary">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#camera_video -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;camera_video">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#chipset -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;chipset">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#colors -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;colors">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#cpu -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;cpu">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#date_posted -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;date_posted">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Phones"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#description -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;description">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Phones"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#dimensions -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;dimensions">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#display_resolution -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;display_resolution">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#display_size -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;display_size">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#display_type -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;display_type">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#gps -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;gps">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#gpu -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;gpu">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#image -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;image">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#image_ad -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;image_ad">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Phones"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#link -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;link">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#location -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;location">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Phones"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#loud_speaker -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;loud_speaker">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#memory_card_slot -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;memory_card_slot">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#memory_internal -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;memory_internal">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#messaging -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;messaging">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#model -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;model">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#multi_touch -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;multi_touch">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#network_technology -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;network_technology">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#os -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;os">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#posted_by -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;posted_by">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Phones"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#price -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;price">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Phones"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#radio -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;radio">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#sensors -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;sensors">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#sim -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;sim">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#site -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;site">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Phones"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#three_point_five_mm_jack -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;three_point_five_mm_jack">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#usb -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;usb">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#weight -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;weight">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#wlan -->
+
+    <owl:DatatypeProperty rdf:about="&ecommerce;wlan">
+        <rdfs:subPropertyOf rdf:resource="&ecommerce;Model"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#Brand -->
+
+    <owl:Class rdf:about="&ecommerce;Brand">
+        <rdfs:subClassOf rdf:resource="&ecommerce;MD_Phones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#E-Commerce_Sites -->
+
+    <owl:Class rdf:about="&ecommerce;E-Commerce_Sites">
+        <rdfs:subClassOf rdf:resource="&ecommerce;Websites"/>
+    </owl:Class>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#Internet -->
+
+    <owl:Class rdf:about="&ecommerce;Internet"/>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#MD_Phones -->
+
+    <owl:Class rdf:about="&ecommerce;MD_Phones">
+        <rdfs:subClassOf rdf:resource="&ecommerce;Mobile_Devices"/>
+    </owl:Class>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#Mobile_Devices -->
+
+    <owl:Class rdf:about="&ecommerce;Mobile_Devices"/>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#Model -->
+
+    <owl:Class rdf:about="&ecommerce;Model">
+        <rdfs:subClassOf rdf:resource="&ecommerce;Brand"/>
+    </owl:Class>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#Phones -->
+
+    <owl:Class rdf:about="&ecommerce;Phones">
+        <rdfs:subClassOf rdf:resource="&ecommerce;Products"/>
+    </owl:Class>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#Products -->
+
+    <owl:Class rdf:about="&ecommerce;Products">
+        <rdfs:subClassOf rdf:resource="&ecommerce;E-Commerce_Sites"/>
+    </owl:Class>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#Websites -->
+
+    <owl:Class rdf:about="&ecommerce;Websites">
+        <rdfs:subClassOf rdf:resource="&ecommerce;Internet"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#Z2 -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;Z2">
+        <rdf:type rdf:resource="&ecommerce;Model"/>
+        <isaModelof rdf:resource="&ecommerce;asus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#acer -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;acer">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#alcatel -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;alcatel">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#apple -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;apple">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#asus -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;asus">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#blackberry -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;blackberry">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#blu -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;blu">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#celkon -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;celkon">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#ebay -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;ebay">
+        <rdf:type rdf:resource="&ecommerce;E-Commerce_Sites"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#gigabyte -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;gigabyte">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#gionee -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;gionee">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#htc -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;htc">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#huawei -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;huawei">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#lava -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;lava">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#lazada -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;lazada">
+        <rdf:type rdf:resource="&ecommerce;E-Commerce_Sites"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#lenovo -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;lenovo">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#lg -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;lg">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#maxwest -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;maxwest">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#micromax -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;micromax">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#microsoft -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;microsoft">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#motorola -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;motorola">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#niu -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;niu">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#nokia -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;nokia">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#olx -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;olx">
+        <rdf:type rdf:resource="&ecommerce;E-Commerce_Sites"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#pantech -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;pantech">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#parla -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;parla">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#plum -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;plum">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#pretigio -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;pretigio">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#samsung -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;samsung">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#sony -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;sony">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#spice -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;spice">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#t-mobile -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;t-mobile">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#toshiba -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;toshiba">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#verykool -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;verykool">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#vivo -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;vivo">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#vodafone -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;vodafone">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#xiaomi -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;xiaomi">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#xolo -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;xolo">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#yezz -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;yezz">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://xu.edu.ph/ecommerce#zte -->
+
+    <owl:NamedIndividual rdf:about="&ecommerce;zte">
+        <rdf:type rdf:resource="&ecommerce;Brand"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

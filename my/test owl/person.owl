@@ -1,0 +1,38 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.0="http://www.example.com/onto1#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="http://www.example.com/onto1#Jane">
+    <rdf:type rdf:resource="http://www.example.com/onto1#FemalePerson"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/onto1#FemalePerson">
+    <owl:disjointWith rdf:resource="http://www.example.com/onto1#MalePerson"/>
+    <rdfs:subClassOf rdf:resource="http://www.example.com/onto1#Person"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/onto1#Person">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/onto1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/onto1#hasAge">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:domain rdf:resource="http://www.example.com/onto1#Person"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/onto1#Bob">
+    <rdf:type rdf:resource="http://www.example.com/onto1#MalePerson"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/onto1#MalePerson">
+    <owl:disjointWith rdf:resource="http://www.example.com/onto1#FemalePerson"/>
+    <rdfs:subClassOf rdf:resource="http://www.example.com/onto1#Person"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.com/onto1#John">
+    <j.0:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</j.0:hasAge>
+    <rdf:type rdf:resource="http://www.example.com/onto1#MalePerson"/>
+  </rdf:Description>
+</rdf:RDF>

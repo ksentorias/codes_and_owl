@@ -1,0 +1,39 @@
+prefix : <http://xu.edu.ph/ecommerce#>
+
+
+SELECT ?brand ?model ?alert_types ?battery ?bluetooth ?camera_features ?camera_primary ?camera_secondary ?camera_video ?chipset ?colors ?cpu ?dimensions 
+?display_resolution ?display_size ?display_type ?gps ?gpu ?image ?loud_speaker ?memory_card_slot ?memory_internal ?messaging ?multi_touch ?network_technology 
+?os ?radio ?sensors ?sim ?three_point_five_mm_jack ?usb ?weight ?wlan
+WHERE {
+    :z1  :brand ?brand ;
+         :model ?model ;
+         :alert_types ?alert_types ;
+         :battery ?battery ;
+         :bluetooth ?bluetooth  ;
+         :camera_features ?camera_features  ;
+         :camera_primary ?camera_primary  ;
+         :camera_secondary ?camera_secondary ;
+         :camera_video ?camera_video  ;
+         :chipset ?chipset  ;
+         :cpu ?cpu  ;
+         :dimensions ?dimensions  ;
+         :display_resolution ?display_resolution  ;
+         :display_size ?display_size  ;
+         :display_type ?display_type  ;
+         :gps ?gps ;
+         :gpu  ?gpu    ;      
+         :loud_speaker ?loud_speaker ;
+         :memory_card_slot ?memory_card_slot  ;
+         :memory_internal ?memory_internal  ;
+         :messaging ?messaging  ;
+         :multi_touch ?multi_touch  ;
+         :network_technology ?network_technology ;
+         :os ?os  ;
+         :radio ?radio   ;
+         :sensors ?sensors  ;
+         :sim ?sim   ;
+         :three_point_five_mm_jack ?three_point_five_mm_jack ;
+         :usb ?usb  ;
+         :weight ?weight  ;
+         :wlan ?wlan  ;
+}

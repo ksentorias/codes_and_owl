@@ -1,0 +1,492 @@
+﻿
+
+9053-0180-TLXU-8XK2-6A66-E3LW-****-****
+
+Windows 8 6.2
+AMD64
+Wow64Process
+Nero Version: 16.0.21.0
+Internal Version: 16,0,21,0
+ (Nero Express)
+Recorder         : <ATAPI iHAS124   B>            FW version: AL0H - HA 1 TA 0 - 16.0.21.0
+ Device bus      :  <>                            HA 1
+ Host system bus :  <IDE> 
+ Drive buffer    :  1536kB
+ Bus Type        :  via Inquiry data
+CD/DVD-ROM       : <ATAPI    iHAS124   B     >    FW version: AL0H - HA 1 TA 0 - 16.0.21.0
+ Device bus      :  <>                            HA 1
+ Host system bus :  <IDE> 
+
+=== Scsi-Device-Map ===
+
+=== CDRom-Device-Map ===
+ATAPI iHAS124   B          F:   CdRom0
+=======================
+
+AutoRun : 1
+Excluded drive IDs: 
+WriteBufferSize: 83886080 (0) Byte
+BUFE           : 0
+Physical memory     : 3568MB (3654652kB)
+Free physical memory: 2591MB (2653308kB)
+Memory in use       : 27 %
+Uncached PFiles: 0x0
+Global Bus Type: default (0)
+Check supported media : Disabled (0) 
+
+11.2.2015
+Audio CD
+11:39:48	#1 Text 0 File SCSIPTICommands.cpp, Line 617
+	LockMCN - completed sucessfully for IOCTL_STORAGE_MCN_CONTROL
+	
+11:39:49	#2 CDADOC -1 File Cdadoc.cpp, Line 1739
+	Audio item log info:
+	Audio document burn settings:
+	=============================
+	Burn mode: DAO,
+	CD Text: On,
+	Cache disk or network files: No,
+	Cache small files: No,
+	Cache files smaller than 65536 bytes.
+	Audio Multisession: No
+	List of audio tracks:
+	=====================
+	Track 01: Length: 03:02.44, Pause frames: 150, Filters: 0, Name: '1. Snow Patrol - You Could Be Happy.mp3'.
+	Track 02: Length: 03:00.12, Pause frames: 150, Filters: 0, Name: '2. Carrie Underwood - I'll Stand By You.mp3'.
+	Track 03: Length: 03:00.12, Pause frames: 150, Filters: 0, Name: '3. Coldplay - Ink.mp3'.
+	Track 04: Length: 03:50.24, Pause frames: 150, Filters: 0, Name: '4. Kodaline - High Hopes.mp3'.
+	Track 05: Length: 03:00.12, Pause frames: 150, Filters: 0, Name: '5. Brandi Carlile - Save Part Of Yourself.mp3'.
+	Track 06: Length: 03:47.25, Pause frames: 150, Filters: 0, Name: '6. Blink-182 - I Miss You.mp3'.
+	Track 07: Length: 04:10.30, Pause frames: 150, Filters: 0, Name: '7. John Mayer - Half Of My Heart.mp3'.
+	Track 08: Length: 03:00.12, Pause frames: 150, Filters: 0, Name: '8. Low - Sunflower.mp3'.
+	Track 09: Length: 03:00.12, Pause frames: 150, Filters: 0, Name: '9. Amanda Seyfried - Little House.mp3'.
+	Track 10: Length: 05:57.32, Pause frames: 150, Filters: 0, Name: '10. Snow Patrol - Run.mp3'.
+	Track 11: Length: 05:59.23, Pause frames: 150, Filters: 0, Name: '11. John Mayer - Friends, Lovers Or Nothing.mp3'.
+	Track 12: Length: 04:19.29, Pause frames: 150, Filters: 0, Name: '12. The Smashing Pumpkins - Farewell And Goodnight.mp3'.
+	Track 13: Length: 04:06.29, Pause frames: 150, Filters: 0, Name: '13. Brandon Flowers - Hard Enough (Feat. Jenny Lewis).mp3'.
+	Track 14: Length: 03:36.29, Pause frames: 150, Filters: 0, Name: '14. Coldplay - Always In My Head.mp3'.
+	Track 15: Length: 04:49.65, Pause frames: 150, Filters: 0, Name: '15. Sleeping At Last - Saturn.mp3'.
+	Track 16: Length: 04:02.05, Pause frames: 150, Filters: 0, Name: '16. John Mayer - Slow Dancing In A Burning Room.mp3'.
+	Track 17: Length: 04:25.12, Pause frames: 150, Filters: 0, Name: '17. Kodaline - Midnight.mp3'.
+	Track 18: Length: 05:05.61, Pause frames: 150, Filters: 0, Name: '18. Kodaline - All I Want.mp3'.
+	Track 19: Length: 03:00.12, Pause frames: 150, Filters: 0, Name: '19. Emma Bale - All I want.mp3'.
+	Total size: 75:51.30
+	
+11:39:49	#3 Text 0 File Burncd.cpp, Line 3474
+	ATAPI iHAS124   B
+	Seamless Link activated
+	
+11:39:49	#4 Text 0 File AudioCompilationImpl.cpp, Line 838
+	DRM: StartDrmRecording(RealRec:1, ImageRec:0, Copies:1)
+	DRM: Beginning burn process.
+	
+11:39:49	#5 PHASE 214 File dlgbrnst.cpp, Line 2095
+	Generation of disc structures started
+	
+11:39:49	#6 PHASE 215 File dlgbrnst.cpp, Line 2095
+	Generation of disc structures completed
+	
+11:39:49	#7 Text 0 File Burncd.cpp, Line 3837
+	Turn on Disc-At-Once, using CD-R/RW media
+	
+11:39:49	#8 Text 0 File DlgWaitCD.cpp, Line 335
+	[F: iHAS124   B     ] Last possible write address on media:   359846
+	Last address to be written:             341204
+	
+11:39:49	#9 Text 0 File DlgWaitCD.cpp, Line 347
+	[F: iHAS124   B     ] Write in overburning mode: NO (enabled: CD)
+	
+11:39:49	#10 Text 0 File DlgWaitCD.cpp, Line 3129
+	Recorder: ATAPI iHAS124   B;
+	   CDR code: 00 97 27 18; OSJ entry from: Plasmon Data systems Ltd.
+	   ATIP Data:
+	     Special    Info [hex] 1: D0 00 A0, 2: 61 1B 12 (LI 97:27.18), 3: 4F 3B 4A (LO 79:59.74)
+	     Additional Info [hex] 1: 00 00 80 (invalid), 2: 00 80 00 (invalid), 3: 00 80 80 (invalid)
+	
+11:39:49	#11 Text 0 File DlgWaitCD.cpp, Line 537
+	[F: iHAS124   B     ] >>> Protocol of DlgWaitCD activities: <<<
+	=========================================
+	
+11:39:49	#12 Text 0 File ThreadedTransferInterface.cpp, Line 879
+	Setup items (after recorder preparation)
+	 0: TRM_AUDIO_NOPRE (1. Snow Patrol - You Could Be Happy.mp3)
+	    2 indices, index0 (150) not provided
+	    original disc pos #0 + 13694 (13694) = #13694/3:2.44
+	    relocatable, disc pos for caching/writing not required/not required
+	    -> TRM_AUDIO_NOPRE, 2352, config 0, wanted index0 0 blocks, length 13694 blocks [F: ATAPI iHAS124   B]
+	 1: TRM_AUDIO_NOPRE (2. Carrie Underwood - I'll Stand By You.mp3)
+	    2 indices, index0 (150) not provided
+	    original disc pos #0 + 13512 (13512) = #13512/3:0.12
+	    relocatable, disc pos for caching/writing not required/not required
+	    -> TRM_AUDIO_NOPRE, 2352, config 0, wanted index0 0 blocks, length 13512 blocks [F: ATAPI iHAS124   B]
+	 2: TRM_AUDIO_NOPRE (3. Coldplay - Ink.mp3)
+	    2 indices, index0 (150) not provided
+	    original disc pos #0 + 13512 (13512) = #13512/3:0.12
+	    relocatable, disc pos for caching/writing not required/not required
+	    -> TRM_AUDIO_NOPRE, 2352, config 0, wanted index0 0 blocks, length 13512 blocks [F: ATAPI iHAS124   B]
+	 3: TRM_AUDIO_NOPRE (4. Kodaline - High Hopes.mp3)
+	    2 indices, index0 (150) not provided
+	    original disc pos #0 + 17274 (17274) = #17274/3:50.24
+	    relocatable, disc pos for caching/writing not required/not required
+	    -> TRM_AUDIO_NOPRE, 2352, config 0, wanted index0 0 blocks, length 17274 blocks [F: ATAPI iHAS124   B]
+	 4: TRM_AUDIO_NOPRE (5. Brandi Carlile - Save Part Of Yourself.mp3)
+	    2 indices, index0 (150) not provided
+	    original disc pos #0 + 13512 (13512) = #13512/3:0.12
+	    relocatable, disc pos for caching/writing not required/not required
+	    -> TRM_AUDIO_NOPRE, 2352, config 0, wanted index0 0 blocks, length 13512 blocks [F: ATAPI iHAS124   B]
+	 5: TRM_AUDIO_NOPRE (6. Blink-182 - I Miss You.mp3)
+	    2 indices, index0 (150) not provided
+	    original disc pos #0 + 17050 (17050) = #17050/3:47.25
+	    relocatable, disc pos for caching/writing not required/not required
+	    -> TRM_AUDIO_NOPRE, 2352, config 0, wanted index0 0 blocks, length 17050 blocks [F: ATAPI iHAS124   B]
+	 6: TRM_AUDIO_NOPRE (7. John Mayer - Half Of My Heart.mp3)
+	    2 indices, index0 (150) not provided
+	    original disc pos #0 + 18780 (18780) = #18780/4:10.30
+	    relocatable, disc pos for caching/writing not required/not required
+	    -> TRM_AUDIO_NOPRE, 2352, config 0, wanted index0 0 blocks, length 18780 blocks [F: ATAPI iHAS124   B]
+	 7: TRM_AUDIO_NOPRE (8. Low - Sunflower.mp3)
+	    2 indices, index0 (150) not provided
+	    original disc pos #0 + 13512 (13512) = #13512/3:0.12
+	    relocatable, disc pos for caching/writing not required/not required
+	    -> TRM_AUDIO_NOPRE, 2352, config 0, wanted index0 0 blocks, length 13512 blocks [F: ATAPI iHAS124   B]
+	 8: TRM_AUDIO_NOPRE (9. Amanda Seyfried - Little House.mp3)
+	    2 indices, index0 (150) not provided
+	    original disc pos #0 + 13512 (13512) = #13512/3:0.12
+	    relocatable, disc pos for caching/writing not required/not required
+	    -> TRM_AUDIO_NOPRE, 2352, config 0, wanted index0 0 blocks, length 13512 blocks [F: ATAPI iHAS124   B]
+	 9: TRM_AUDIO_NOPRE (10. Snow Patrol - Run.mp3)
+	    2 indices, index0 (150) not provided
+	    original disc pos #0 + 26807 (26807) = #26807/5:57.32
+	    relocatable, disc pos for caching/writing not required/not required
+	    -> TRM_AUDIO_NOPRE, 2352, config 0, wanted index0 0 blocks, length 26807 blocks [F: ATAPI iHAS124   B]
+	10: TRM_AUDIO_NOPRE (11. John Mayer - Friends, Lovers Or Nothing.mp3)
+	    2 indices, index0 (150) not provided
+	    original disc pos #0 + 26948 (26948) = #26948/5:59.23
+	    relocatable, disc pos for caching/writing not required/not required
+	    -> TRM_AUDIO_NOPRE, 2352, config 0, wanted index0 0 blocks, length 26948 blocks [F: ATAPI iHAS124   B]
+	11: TRM_AUDIO_NOPRE (12. The Smashing Pumpkins - Farewell And Goodnight.mp3)
+	    2 indices, index0 (150) not provided
+	    original disc pos #0 + 19454 (19454) = #19454/4:19.29
+	    relocatable, disc pos for caching/writing not required/not required
+	    -> TRM_AUDIO_NOPRE, 2352, config 0, wanted index0 0 blocks, length 19454 blocks [F: ATAPI iHAS124   B]
+	12: TRM_AUDIO_NOPRE (13. Brandon Flowers - Hard Enough (Feat. Jenny Lewis).mp3)
+	    2 indices, index0 (150) not provided
+	    original disc pos #0 + 18479 (18479) = #18479/4:6.29
+	    relocatable, disc pos for caching/writing not required/not required
+	    -> TRM_AUDIO_NOPRE, 2352, config 0, wanted index0 0 blocks, length 18479 blocks [F: ATAPI iHAS124   B]
+	13: TRM_AUDIO_NOPRE (14. Coldplay - Always In My Head.mp3)
+	    2 indices, index0 (150) not provided
+	    original disc pos #0 + 16229 (16229) = #16229/3:36.29
+	    relocatable, disc pos for caching/writing not required/not required
+	    -> TRM_AUDIO_NOPRE, 2352, config 0, wanted index0 0 blocks, length 16229 blocks [F: ATAPI iHAS124   B]
+	14: TRM_AUDIO_NOPRE (15. Sleeping At Last - Saturn.mp3)
+	    2 indices, index0 (150) not provided
+	    original disc pos #0 + 21740 (21740) = #21740/4:49.65
+	    relocatable, disc pos for caching/writing not required/not required
+	    -> TRM_AUDIO_NOPRE, 2352, config 0, wanted index0 0 blocks, length 21740 blocks [F: ATAPI iHAS124   B]
+	15: TRM_AUDIO_NOPRE (16. John Mayer - Slow Dancing In A Burning Room.mp3)
+	    2 indices, index0 (150) not provided
+	    original disc pos #0 + 18155 (18155) = #18155/4:2.5
+	    relocatable, disc pos for caching/writing not required/not required
+	    -> TRM_AUDIO_NOPRE, 2352, config 0, wanted index0 0 blocks, length 18155 blocks [F: ATAPI iHAS124   B]
+	16: TRM_AUDIO_NOPRE (17. Kodaline - Midnight.mp3)
+	    2 indices, index0 (150) not provided
+	    original disc pos #0 + 19887 (19887) = #19887/4:25.12
+	    relocatable, disc pos for caching/writing not required/not required
+	    -> TRM_AUDIO_NOPRE, 2352, config 0, wanted index0 0 blocks, length 19887 blocks [F: ATAPI iHAS124   B]
+	17: TRM_AUDIO_NOPRE (18. Kodaline - All I Want.mp3)
+	    2 indices, index0 (150) not provided
+	    original disc pos #0 + 22936 (22936) = #22936/5:5.61
+	    relocatable, disc pos for caching/writing not required/not required
+	    -> TRM_AUDIO_NOPRE, 2352, config 0, wanted index0 0 blocks, length 22936 blocks [F: ATAPI iHAS124   B]
+	18: TRM_AUDIO_NOPRE (19. Emma Bale - All I want.mp3)
+	    2 indices, index0 (150) not provided
+	    original disc pos #0 + 13512 (13512) = #13512/3:0.12
+	    relocatable, disc pos for caching/writing not required/not required
+	    -> TRM_AUDIO_NOPRE, 2352, config 0, wanted index0 0 blocks, length 13512 blocks [F: ATAPI iHAS124   B]
+	--------------------------------------------------------------
+	
+11:39:49	#13 Text 0 File ThreadedTransferInterface.cpp, Line 1095
+	Prepare [F: ATAPI iHAS124   B] for write in CUE-sheet-DAO
+	DAO infos:
+	==========
+	 MCN: ""
+	 TOCType: 0x00; Session Closed, disc fixated
+	 Tracks 1 to 19:                                  Idx 0         Idx 1      Next Trk
+	   1: TRM_AUDIO_NOPRE, 2352/0x00, FilePos             0        352800      32561088, ISRC ""
+	   2: TRM_AUDIO_NOPRE, 2352/0x00, FilePos      32561088      32913888      64694112, ISRC ""
+	   3: TRM_AUDIO_NOPRE, 2352/0x00, FilePos      64694112      65046912      96827136, ISRC ""
+	   4: TRM_AUDIO_NOPRE, 2352/0x00, FilePos      96827136      97179936     137808384, ISRC ""
+	   5: TRM_AUDIO_NOPRE, 2352/0x00, FilePos     137808384     138161184     169941408, ISRC ""
+	   6: TRM_AUDIO_NOPRE, 2352/0x00, FilePos     169941408     170294208     210395808, ISRC ""
+	   7: TRM_AUDIO_NOPRE, 2352/0x00, FilePos     210395808     210748608     254919168, ISRC ""
+	   8: TRM_AUDIO_NOPRE, 2352/0x00, FilePos     254919168     255271968     287052192, ISRC ""
+	   9: TRM_AUDIO_NOPRE, 2352/0x00, FilePos     287052192     287404992     319185216, ISRC ""
+	  10: TRM_AUDIO_NOPRE, 2352/0x00, FilePos     319185216     319538016     382588080, ISRC ""
+	  11: TRM_AUDIO_NOPRE, 2352/0x00, FilePos     382588080     382940880     446322576, ISRC ""
+	  12: TRM_AUDIO_NOPRE, 2352/0x00, FilePos     446322576     446675376     492431184, ISRC ""
+	  13: TRM_AUDIO_NOPRE, 2352/0x00, FilePos     492431184     492783984     536246592, ISRC ""
+	  14: TRM_AUDIO_NOPRE, 2352/0x00, FilePos     536246592     536599392     574770000, ISRC ""
+	  15: TRM_AUDIO_NOPRE, 2352/0x00, FilePos     574770000     575122800     626255280, ISRC ""
+	  16: TRM_AUDIO_NOPRE, 2352/0x00, FilePos     626255280     626608080     669308640, ISRC ""
+	  17: TRM_AUDIO_NOPRE, 2352/0x00, FilePos     669308640     669661440     716435664, ISRC ""
+	  18: TRM_AUDIO_NOPRE, 2352/0x00, FilePos     716435664     716788464     770733936, ISRC ""
+	  19: TRM_AUDIO_NOPRE, 2352/0x00, FilePos     770733936     771086736     802866960, ISRC ""
+	DAO layout:
+	===========
+	 ___Start_|____Track_|_Idx_|_CtrlAdr_|_____Size_|______NWA_|_RecDep__________
+	     -150 |  lead-in |   0 |    0x01 |        0 |        0 | 0x00
+	     -150 |        1 |   0 |    0x21 |        0 |        0 | 0x00
+	        0 |        1 |   1 |    0x21 |    13694 |        0 | 0x00
+	    13694 |        2 |   0 |    0x21 |        0 |        0 | 0x00
+	    13844 |        2 |   1 |    0x21 |    13512 |    13844 | 0x00
+	    27356 |        3 |   0 |    0x21 |        0 |        0 | 0x00
+	    27506 |        3 |   1 |    0x21 |    13512 |    27506 | 0x00
+	    41018 |        4 |   0 |    0x21 |        0 |        0 | 0x00
+	    41168 |        4 |   1 |    0x21 |    17274 |    41168 | 0x00
+	    58442 |        5 |   0 |    0x21 |        0 |        0 | 0x00
+	    58592 |        5 |   1 |    0x21 |    13512 |    58592 | 0x00
+	    72104 |        6 |   0 |    0x21 |        0 |        0 | 0x00
+	    72254 |        6 |   1 |    0x21 |    17050 |    72254 | 0x00
+	    89304 |        7 |   0 |    0x21 |        0 |        0 | 0x00
+	    89454 |        7 |   1 |    0x21 |    18780 |    89454 | 0x00
+	   108234 |        8 |   0 |    0x21 |        0 |        0 | 0x00
+	   108384 |        8 |   1 |    0x21 |    13512 |   108384 | 0x00
+	   121896 |        9 |   0 |    0x21 |        0 |        0 | 0x00
+	   122046 |        9 |   1 |    0x21 |    13512 |   122046 | 0x00
+	   135558 |       10 |   0 |    0x21 |        0 |        0 | 0x00
+	   135708 |       10 |   1 |    0x21 |    26807 |   135708 | 0x00
+	   162515 |       11 |   0 |    0x21 |        0 |        0 | 0x00
+	   162665 |       11 |   1 |    0x21 |    26948 |   162665 | 0x00
+	   189613 |       12 |   0 |    0x21 |        0 |        0 | 0x00
+	   189763 |       12 |   1 |    0x21 |    19454 |   189763 | 0x00
+	   209217 |       13 |   0 |    0x21 |        0 |        0 | 0x00
+	   209367 |       13 |   1 |    0x21 |    18479 |   209367 | 0x00
+	   227846 |       14 |   0 |    0x21 |        0 |        0 | 0x00
+	   227996 |       14 |   1 |    0x21 |    16229 |   227996 | 0x00
+	   244225 |       15 |   0 |    0x21 |        0 |        0 | 0x00
+	   244375 |       15 |   1 |    0x21 |    21740 |   244375 | 0x00
+	   266115 |       16 |   0 |    0x21 |        0 |        0 | 0x00
+	   266265 |       16 |   1 |    0x21 |    18155 |   266265 | 0x00
+	   284420 |       17 |   0 |    0x21 |        0 |        0 | 0x00
+	   284570 |       17 |   1 |    0x21 |    19887 |   284570 | 0x00
+	   304457 |       18 |   0 |    0x21 |        0 |        0 | 0x00
+	   304607 |       18 |   1 |    0x21 |    22936 |   304607 | 0x00
+	   327543 |       19 |   0 |    0x21 |        0 |        0 | 0x00
+	   327693 |       19 |   1 |    0x21 |    13512 |   327693 | 0x00
+	   341205 | lead-out |   1 |    0x01 |        0 |        0 | 0x00
+	MediaType: CD-R
+	
+11:39:50	#14 Text 0 File SCSIPTICommands.cpp, Line 404
+	SPTILockVolume - completed successfully for FSCTL_LOCK_VOLUME
+	
+11:39:50	#15 Text 0 File Burncd.cpp, Line 4735
+	Caching options: cache CDRom or Network-No, small files-No (<64KB)
+	
+11:39:50	#16 PHASE 36 File dlgbrnst.cpp, Line 2095
+	Burn process started at 48x (7,200 KB/s)
+	
+11:39:50	#17 Text 0 File ThreadedTransferInterface.cpp, Line 2926
+	Verifying disc position of item 0 (relocatable, no disc pos, no patch infos, orig at #0): write at #0
+	
+11:39:50	#18 Text 0 File ThreadedTransferInterface.cpp, Line 2926
+	Verifying disc position of item 1 (relocatable, no disc pos, no patch infos, orig at #0): write at #13844
+	
+11:39:50	#19 Text 0 File ThreadedTransferInterface.cpp, Line 2926
+	Verifying disc position of item 2 (relocatable, no disc pos, no patch infos, orig at #0): write at #27506
+	
+11:39:50	#20 Text 0 File ThreadedTransferInterface.cpp, Line 2926
+	Verifying disc position of item 3 (relocatable, no disc pos, no patch infos, orig at #0): write at #41168
+	
+11:39:50	#21 Text 0 File ThreadedTransferInterface.cpp, Line 2926
+	Verifying disc position of item 4 (relocatable, no disc pos, no patch infos, orig at #0): write at #58592
+	
+11:39:50	#22 Text 0 File ThreadedTransferInterface.cpp, Line 2926
+	Verifying disc position of item 5 (relocatable, no disc pos, no patch infos, orig at #0): write at #72254
+	
+11:39:50	#23 Text 0 File ThreadedTransferInterface.cpp, Line 2926
+	Verifying disc position of item 6 (relocatable, no disc pos, no patch infos, orig at #0): write at #89454
+	
+11:39:50	#24 Text 0 File ThreadedTransferInterface.cpp, Line 2926
+	Verifying disc position of item 7 (relocatable, no disc pos, no patch infos, orig at #0): write at #108384
+	
+11:39:50	#25 Text 0 File ThreadedTransferInterface.cpp, Line 2926
+	Verifying disc position of item 8 (relocatable, no disc pos, no patch infos, orig at #0): write at #122046
+	
+11:39:50	#26 Text 0 File ThreadedTransferInterface.cpp, Line 2926
+	Verifying disc position of item 9 (relocatable, no disc pos, no patch infos, orig at #0): write at #135708
+	
+11:39:50	#27 Text 0 File ThreadedTransferInterface.cpp, Line 2926
+	Verifying disc position of item 10 (relocatable, no disc pos, no patch infos, orig at #0): write at #162665
+	
+11:39:50	#28 Text 0 File ThreadedTransferInterface.cpp, Line 2926
+	Verifying disc position of item 11 (relocatable, no disc pos, no patch infos, orig at #0): write at #189763
+	
+11:39:50	#29 Text 0 File ThreadedTransferInterface.cpp, Line 2926
+	Verifying disc position of item 12 (relocatable, no disc pos, no patch infos, orig at #0): write at #209367
+	
+11:39:50	#30 Text 0 File ThreadedTransferInterface.cpp, Line 2926
+	Verifying disc position of item 13 (relocatable, no disc pos, no patch infos, orig at #0): write at #227996
+	
+11:39:50	#31 Text 0 File ThreadedTransferInterface.cpp, Line 2926
+	Verifying disc position of item 14 (relocatable, no disc pos, no patch infos, orig at #0): write at #244375
+	
+11:39:50	#32 Text 0 File ThreadedTransferInterface.cpp, Line 2926
+	Verifying disc position of item 15 (relocatable, no disc pos, no patch infos, orig at #0): write at #266265
+	
+11:39:50	#33 Text 0 File ThreadedTransferInterface.cpp, Line 2926
+	Verifying disc position of item 16 (relocatable, no disc pos, no patch infos, orig at #0): write at #284570
+	
+11:39:50	#34 Text 0 File ThreadedTransferInterface.cpp, Line 2926
+	Verifying disc position of item 17 (relocatable, no disc pos, no patch infos, orig at #0): write at #304607
+	
+11:39:50	#35 Text 0 File ThreadedTransferInterface.cpp, Line 2926
+	Verifying disc position of item 18 (relocatable, no disc pos, no patch infos, orig at #0): write at #327693
+	
+11:39:50	#36 Text 0 File Mmc.cpp, Line 17653
+	StartDAO : CD-Text - On
+	
+11:39:50	#37 Text 0 File Mmc.cpp, Line 21661
+	Set BUFE: Seamless Link -> ON , Adapt writespeed to disc : ON
+	
+11:39:50	#38 Text 0 File Mmc.cpp, Line 17883
+	CueData, Len=320
+	21 00 00 41 00 00 00 00 
+	21 01 00 00 00 00 00 00 
+	21 01 01 00 00 00 02 00 
+	21 02 00 00 00 03 04 2c 
+	21 02 01 00 00 03 06 2c 
+	21 03 00 00 00 06 06 38 
+	21 03 01 00 00 06 08 38 
+	21 04 00 00 00 09 08 44 
+	21 04 01 00 00 09 0a 44 
+	21 05 00 00 00 0d 01 11 
+	21 05 01 00 00 0d 03 11 
+	21 06 00 00 00 10 03 1d 
+	21 06 01 00 00 10 05 1d 
+	21 07 00 00 00 13 34 36 
+	21 07 01 00 00 13 36 36 
+	21 08 00 00 00 18 05 09 
+	21 08 01 00 00 18 07 09 
+	21 09 00 00 00 1b 07 15 
+	21 09 01 00 00 1b 09 15 
+	21 0a 00 00 00 1e 09 21 
+	21 0a 01 00 00 1e 0b 21 
+	21 0b 00 00 00 24 08 41 
+	21 0b 01 00 00 24 0a 41 
+	21 0c 00 00 00 2a 0a 0d 
+	21 0c 01 00 00 2a 0c 0d 
+	21 0d 00 00 00 2e 1f 2a 
+	21 0d 01 00 00 2e 21 2a 
+	21 0e 00 00 00 32 27 47 
+	21 0e 01 00 00 32 29 47 
+	21 0f 00 00 00 36 12 19 
+	21 0f 01 00 00 36 14 19 
+	21 10 00 00 00 3b 0a 0f 
+	21 10 01 00 00 3b 0c 0f 
+	21 11 00 00 00 3f 0e 14 
+	21 11 01 00 00 3f 10 14 
+	21 12 00 00 00 43 29 20 
+	21 12 01 00 00 43 2b 20 
+	21 13 00 00 00 48 31 12 
+	21 13 01 00 00 48 33 12 
+	01 aa 01 01 00 4b 33 1e 
+	
+11:39:50	#39 Text 0 File CDTextInfo.cpp, Line 225
+	CD Text info to be written:
+	 Album Title  : Music F:
+	 Album Artist : Sentorias Com_Srv
+	 19 Tacks [Title] | [Artist] :
+	   1: You Could Be Happy | Snow Patrol
+	   2: I'll Stand By You | 2. Carrie Underwood
+	   3: Ink | 3. Coldplay
+	   4: High Hopes | Kodaline
+	   5: Save Part Of Yourself | 5. Brandi Carlile
+	   6: I Miss You | Blink 182
+	   7: Half Of My Heart | John Mayer
+	   8: Sunflower | 8. Low
+	   9: Little House | 9. Amanda Seyfried
+	  10: Run | Snow Patrol
+	  11: Friends, Lovers Or Nothing | John Mayer
+	  12: Farewell And Goodnight | Smashing Pumpkins
+	  13: Hard Enough (Feat. Jenny Lewis) | Brandon Flowers
+	  14: Always In My Head | Coldplay
+	  15: Saturn | Sleeping At Last
+	  16: Slow Dancing In A Burning Room | John Mayer
+	  17: Midnight | Kodaline
+	  18: All I Want | Kodaline
+	  19: All I want | 19. Emma Bale
+	
+11:39:50	#40 Text 0 File ThreadedTransfer.cpp, Line 275
+	Pipe memory size 83836800
+	
+11:41:06	#41 SPTI -1511 File SCSIPassThrough.cpp, Line 225
+	CdRom0: SCSIStatus(x02) WinError(0) NeroError(-1511)
+	CDB Data:   0x2A 00 FF FF D2 A9 00 02 AA 00 00 00 
+	Sense Key:  0x04 (KEY_HARDWARE_ERROR)
+	Sense Code: 0x3E
+	Sense Qual: 0x02
+	Sense Area: 0x70 00 04 00 00 00 00 0A 00 00 00 00 3E 02 
+	Buffer x0f17c480: Len xffc0
+	0x20 00 00 00 00 04 35 35 1C 36 25 23 08 04 18 3A 
+	0x00 05 25 2F 1D 12 28 1F 20 00 04 01 00 32 01 03 
+	0x1B 37 15 2C 19 02 01 02 19 12 01 08 18 16 2C 0B 
+	
+11:41:06	#42 TRANSFER -20 File ThreadedTransfer.cpp, Line 1235
+	Could not perform Write
+	
+11:41:06	#43 SPTI -1169 File SCSIPassThrough.cpp, Line 225
+	CdRom0: SCSIStatus(x02) WinError(0) NeroError(-1169)
+	CDB Data:   0xAD 00 00 00 00 00 00 00 08 04 00 00 
+	Sense Key:  0x02 (KEY_NOT_READY)
+	Sense Code: 0x04
+	Sense Qual: 0x08
+	Sense Area: 0x70 00 02 00 00 00 00 0A 00 00 00 00 04 08 
+	Buffer x0f040e80: Len x804
+	
+11:41:06	#44 CDR -1511 File Writer.cpp, Line 345
+	Logical unit timeout
+	F: ATAPI iHAS124   B
+	
+11:41:11	#45 SPTI -1169 File SCSIPassThrough.cpp, Line 225
+	CdRom0: SCSIStatus(x02) WinError(0) NeroError(-1169)
+	CDB Data:   0x51 00 00 00 00 00 00 00 20 00 00 00 
+	Sense Key:  0x02 (KEY_NOT_READY)
+	Sense Code: 0x04
+	Sense Qual: 0x08
+	Sense Area: 0x70 00 02 00 00 00 00 0A 00 00 00 00 04 08 
+	Buffer x05026140: Len x20
+	
+11:41:42	#46 SPTI -600 File SCSIPassThrough.cpp, Line 225
+	CdRom0: SCSIStatus(x00) WinError(121) NeroError(-600)
+	CDB Data:   0x55 10 00 00 00 00 00 00 3C 00 00 00 
+	Sense Key:  0x00 (KEY_NO_SENSE)
+	Sense Code: 0x00
+	Sense Qual: 0x00
+	Sense Area: 0x00 00 00 00 00 00 00 00 00 00 00 00 00 
+	Buffer x07aa9380: Len x3c
+	0x00 00 00 00 00 00 00 00 05 32 01 C4 08 00 00 00 
+	0x00 00 00 00 00 00 00 96 00 00 00 00 00 00 00 00 
+	0x00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	
+11:41:42	#47 Text 0 File DVDPlusDualLayer.cpp, Line 1464
+	SetDriveCaps: Set LAST LBA of layer 1 to 0
+	
+11:41:42	#48 PHASE 38 File dlgbrnst.cpp, Line 2095
+	Burn process failed at 48x (7,200 KB/s)
+	
+11:41:42	#49 Text 0 File AudioCompilationImpl.cpp, Line 863
+	DRM: DRM burn session terminated.
+	
+11:41:42	#50 Text 0 File AudioCompilationImpl.cpp, Line 892
+	DRM: Closing entire DRM handling. Bye.
+	
+11:41:43	#51 Text 0 File SCSIPTICommands.cpp, Line 454
+	SPTIDismountVolume - completed successfully for FSCTL_DISMOUNT_VOLUME
+	
+11:41:43	#52 Text 0 File Cdrdrv.cpp, Line 12297
+	DriveLocker: UnLockVolume completed
+	
+11:41:43	#53 Text 0 File SCSIPTICommands.cpp, Line 617
+	UnLockMCN - completed sucessfully for IOCTL_STORAGE_MCN_CONTROL
+	

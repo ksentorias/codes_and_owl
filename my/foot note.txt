@@ -1,0 +1,6 @@
+FOTENOTE!!
+
+-check how to java in cmd
+-do data count how many hits how many fail
+-preview data in full view copy how things done in old system
+-in price dots for cents and comma for tenths correct it

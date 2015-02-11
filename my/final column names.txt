@@ -1,0 +1,13 @@
+0.	Id
+1.	Ad_name
+2.	Site
+3.	Brand
+4.	model
+5.	Price
+6.	Chipset
+7.	Cpu
+8.	Camera
+9.	memory
+10.	Date_posted
+11.	2nd hand_or_brandnew
+12.	Location

@@ -1,0 +1,86 @@
+Bombards 3.3
+UPDATE 1/29/15
+FOR PC ONLY
+Psiphon Users Unite FreeNet
+DELETE THE OLD Bombards
+BASAHIN MUNA LAHAT BAGO MAG REACT AT KUNG ANO ANONG PINAGSASABI SA KAPITBAHAY
+Bombards 3.3
+Tutorials
+NOTE: extract first the folder of bombards 3.3
+b4 running the apps..
+Password = psiphonusersunite
+password of bunos apps = sniperbomb
+PUT INTO DRIVE C:
+OPEN BOMBARDS 3.3
+RIGHT CLICK BOMBARDS 3.3 EXE
+SEND TO DESKTOP CREATE SHORTCUT
+NOW GO TO DESKTOP
+1. Run First Your Globe tatto stick or
+pocket wifi globe sabi nila napagana
+nila sa pocket wifi KAHIT TM ANG SIM .. GLOBE DIN YAN HAISSSTT.
+pwede rin tether via cp.. basta globe o tm ang sim
+(connected)
+kung openline ang stick nyo mga sun and smart dashboard with globe or tm sim
+eto settings.
+dashboard settings
+Profile name: 'Bombards 
+Dial#: *99***1#
+APN: http.globe.com.ph
+Authentication mode: PAP or CHAP
+Connect sa dashboard using created profile.
+2. Run Bombards
+nagtataka kayo sa mga 1st time users kung bakit marami nadelete..
+auto clean temp folder yan denedelete nya lahat ng junk files.
+3.Enter answer
+sniperbomb
+4, If your answer is correct.
+it says Congratulation
+(wait until main menu reload)
+5.Type the command server you wish to connect
+Just One Server ok
+Browse
+Finish.
+TROUBLESHOOT:
+Note: KAPAG NAGPAPALIT NG SERVER TAPOS AYAW NA MAGCONNECT
+RESTART NYO LANG ANG BOMBARDS OR RESTART NYO ANG 
+BOMBARDS AT DASHBOARD NYO
+KAPAG AYAW PARIN KAHIT CONNECTED RESTART BOMBARDS
+LANG ....
+DAPAT I TYPE MO UNG COMMAND NA STOP TAPOS QUIT PARA
+D KANA MAG END TASK SA TASK MANAGER NG NAIWANG
+NAKARUN.
+KUNG CONNECTED NO BROWSE .. NASA PROXIFIER SETTINGS
+ANG PROBLEMA..
+BLUESTACKS USERS / or any kind of android emulator are not working .. stand alone online games not working
+connected no browse?
+try mo to
+diba nag browse ka no connection puro green lang si proxifier.. eto
+dont close your browser
+exit bombards ( on command)
+disconnect dashboard
+open bombards
+connect dashboard
+connect bombards
+open browser and browse
+note: naka open pa rin ung isang browser kanina na hindi makabrowse
+kung anong browser ginamit kanina sya rin gagamitin . observe proxifier 
+pag nagpakita na yung blue na alon .. meron na yan....
+or 
+uninstall browser run ccleaner clean up your disk and install browser
+nagtataka kayo connected but green parin ang umaalon sa proxifier dapat blue yan .. dahil marami ng users .. even yung mga bagong labas na gui ganyan na .. sa una madali makakonek pag nagtatagal mahirap kumuknek.. kaya kelangan bumwelo kapag kunekted na wag na.. sulitin nyo na wag na disconnect.
+?#?FEATURES?:
+With 9 server (UPDATED)
+2 Multi Server (NEW)
+DNS FLUSHER
+AUTO CLEAN TEMP FOLDER
+With Status if Connected
+?#?whats_New_Here??
+Fix ultrasurf issue
+ULTRASURF FEEDBACK
+nagana na daw (sabi nila)
+This application is NOT FOR SALE..This
+Freenet STARTS in akimi and Lantern 
+Freenet .Big Credits to Lantern Org.
+Screenshot below is bombards v1
+SA MGA NAGTATANONG HINDI PO YAN ANG NET KO SHARE KO LANG SA MGA WALANG NET..
+DOWNLOAD LINK

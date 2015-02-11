@@ -1,0 +1,5 @@
+LOAD DATA LOCAL INFILE 'C:/Users/test/Documents/gg.csv' INTO TABLE database.table FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES;
+
+
+
+DELETE FROM table_name WHERE some_column = '';
