@@ -1,5 +1,74 @@
-LOAD DATA LOCAL INFILE 'C:/Users/test/Documents/gg.csv' INTO TABLE database.table FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES;
+//truncate all
+TRUNCATE TABLE olx;
+TRUNCATE TABLE lazada;
+TRUNCATE TABLE ebay;
+TRUNCATE TABLE ads;
+
+
+//load ebay
+LOAD DATA LOCAL INFILE 'C:/Users/test/Documents/final ad crawler csv/ebay_crawl.csv' INTO TABLE ebay FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES;
+
+//load olx
+LOAD DATA LOCAL INFILE 'C:/Users/test/Documents/final ad crawler csv/olx crawl.csv' INTO TABLE olx FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES
+
+
+//load lazada
+LOAD DATA LOCAL INFILE 'C:/Users/test/Documents/final ad crawler csv/lazada crawled.csv' INTO TABLE lazada FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES
+
+//load all
+LOAD DATA LOCAL INFILE 'C:/Users/test/Documents/final ad crawler csv/ebay crawl.csv' INTO TABLE ebay FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES;
+LOAD DATA LOCAL INFILE 'C:/Users/test/Documents/final ad crawler csv/olx crawl.csv' INTO TABLE olx FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES
+LOAD DATA LOCAL INFILE 'C:/Users/test/Documents/final ad crawler csv/lazada crawled.csv' INTO TABLE lazada FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES
 
 
 
 DELETE FROM table_name WHERE some_column = '';
+
+
+
+//ebay insert
+INSERT INTO ads (ad_name, site, price, location, posted_by, description, image, link)
+SELECT link, g, h, cdf, i, asd, image, e FROM ebay
+limit 5
+
+
+//olx insert
+INSERT INTO ads (ad_name, site, price, location, posted_by, description, image, link)
+SELECT g, ad_name, h, dsf, cdf, zxcz, i, link FROM olx
+limit 5
+
+//lazada insert
+INSERT INTO ads (ad_name, site, price, location, posted_by, description, image, link)
+SELECT g, ad_name, cxzc, cdf, zxcz, dsf, h, link FROM lazada
+limit 5
+
+
+//insert all
+INSERT INTO ads (ad_name, site, price, location, posted_by, description, image, link)
+(SELECT link, g, h, cdf, i, asd, image, e FROM ebay limit 5)
+union
+(SELECT g, ad_name, h, dsf, cdf, zxcz, i, link FROM olx limit 5)
+union
+(SELECT g, ad_name, cxzc, cdf, zxcz, dsf, h, link FROM lazada limit 5)
+
+
+#load and insert
+TRUNCATE TABLE olx;
+TRUNCATE TABLE lazada;
+TRUNCATE TABLE ebay;
+TRUNCATE TABLE ads;
+
+LOAD DATA LOCAL INFILE 'C:/Users/test/Documents/final ad crawler csv/ebay crawl.csv' INTO TABLE ebay FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES;# 54 rows affected.
+
+LOAD DATA LOCAL INFILE 'C:/Users/test/Documents/final ad crawler csv/olx crawl.csv' INTO TABLE olx FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES;# 581 rows affected.
+
+LOAD DATA LOCAL INFILE 'C:/Users/test/Documents/final ad crawler csv/lazada crawl.csv' INTO TABLE lazada FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES;# 32 rows affected.
+
+
+
+INSERT INTO ads (ad_name, site, price, location, posted_by, description, image, link)
+(SELECT link, g, h, cdf, i, asd, image, e FROM ebay limit 5)
+union
+(SELECT g, ad_name, h, dsf, cdf, zxcz, i, link FROM olx limit 5)
+union
+(SELECT g, ad_name, cxzc, cdf, zxcz, dsf, h, link FROM lazada limit 5)# 15 rows affected.
